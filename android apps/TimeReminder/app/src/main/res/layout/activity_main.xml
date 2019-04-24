@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.timereminder.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+
+            android:text="Countdown TIMER"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/mnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WAIT! UNTIL DONE"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

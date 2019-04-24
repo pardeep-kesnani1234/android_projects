@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RollnRock</string>
+    <string name="title">Roll&amp;Rock</string>
+    <string name="imagee">pic;Rock</string>
+    <string name="buton">ROLL</string>
+    <string name="roll">ROLL</string>
+</resources>

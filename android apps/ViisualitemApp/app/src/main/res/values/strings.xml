@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViisualitemApp</string>
+    <string name="button1">Play</string>
+    <string name="button2">Pause</string>
+    <string name="plaintext">Audio Song control are play and pause</string>
+    <string name="plaintext2">VOLUME</string>
+    <string name="plaintext3">TIMELINE</string>
+</resources>
